@@ -61,11 +61,11 @@
 				<artifactId>appassembler-maven-plugin</artifactId>
 				<version>1.10</version>
 				<configuration>
-					<assembleDirectory>${project.basedir}/bindist</assembleDirectory>
+					<assembleDirectory>${project.basedir}/scripts</assembleDirectory>
 					<programs>
 						<program>
-							<mainClass>fr.ul.miage.hello.Hello</mainClass>
-							<id>hello</id>
+							<mainClass>fr.ul.miage.hello.App</mainClass>
+							<id>app</id>
 						</program>
 					</programs>
 				</configuration>
